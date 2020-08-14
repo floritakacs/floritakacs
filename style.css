@@ -1,0 +1,28 @@
+div {
+  display: flex;
+  height: 2000
+    px;
+}
+
+header {
+  background: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  display: block;
+  width: 150px;
+  height: 30px;
+  background: red;
+  margin: 10px;
+}
+
+.bigger {
+  width: 150px;
+}
+
+main {
+  flex-grow: 3;
+}
